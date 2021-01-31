@@ -19,6 +19,7 @@ const Slideshow = () => {
         <Slide easing="ease">
           <div className="each-slide">
             <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
+                <span></span>
             </div>
           </div>
           <div className="each-slide">

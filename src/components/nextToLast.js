@@ -26,29 +26,30 @@ const SkillzBackground =()=>{
 
 
     return(
-    <div className="nextToLastContainer">
-<div className="bottomRow">
-    <div className="col">
-    <div className="skillz" onClick={()=>box()}>
-<img className="id" src={idcard}/>
-        </div>
-        <div  className="bakgrund" onClick={()=>box2()}>
-        <img className="id" src={background}/>
-        </div>
-    <div>
+<div className="nextToLastContainer">
+    <div className="bottomRow">
+        <div className="col">
+            
+            <div className="card card--pink" onClick={()=>box()}>
+                <img className="id" src={idcard}/>          
+            </div>
 
-    </div>
-    <div  className="utfyllnad">
-        <div className="infoBackgroundBox">        
-            {info}
-</div>
-    </div>
-    </div>
-        <div className="skillzBakgrundInfoBox">
-    {infoBox}
+            <div  className="card card--blue" onClick={()=>box2()}>
+                <img className="id" src={background}/>
+            </div>
+    
+            <div  className="utfyllnad">
+                <div className="infoBackgroundBox">        
+                    {info}
+                </div>
             </div>
         </div>
-
-        </div>)
+        <div className="col">
+            <div className="skillzBakgrundInfoBox">
+                {infoBox}
+            </div>
+        </div>
+    </div>
+</div>)
 }
 export default SkillzBackground

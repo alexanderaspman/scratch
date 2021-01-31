@@ -62,29 +62,31 @@ const info4=()=>{
 
      return(
 <div className="container">
-    <div className="container__top">
-    <div className="col header">
+    <div className="rowTop">
+    <div className="header">
+        <div classname="headerText">
         {/* <p className="headerCaption">Alexander Aspman</p><br/> */}
-            <h1 className="header__title">Frontend developer</h1>
+            <p className="headerCaption">Frontend developer            </p>
+            </div>
             </div>
             <div className="col">
            <div className="row">
-           <div className="card card--pink" onClick={info2}>
+           <div className="card iconCard shop" onClick={info2}>
                <p>webshop</p>
                 <img className="" onClick={()=>setBox(info1)} src={shop}/>
             </div>
-            <div className="card card--blue" >
-                <img className="card__img" src={app} onClick={()=>setBox(info2)} />
-            </div>
-            </div>
+            <div className="card iconCard hjalpEnHemlos" >
+            <img className="shopCard" src={app} onClick={()=>setBox(info2)} />
+                </div>
+                </div>
                 <div className="row">
-                <div className="card card--red">
-                    <img className="card__img" onClick={()=>setBox(info3)} src={game}/>
+                <div className="card iconCard green">
+                <img className="greenCard" onClick={()=>setBox(info3)} src={game}/>
                 </div>
 
-                <div className="card card--pinkcream">
+                <div className="card iconCard app">
                     <div className="hjalpOverst">  
-                    <img className="card__img" onClick={()=>setBox(info4)} src={hjalpenhemlos}/>
+                <img className="shopCard1 hjalp" onClick={()=>setBox(info4)} src={hjalpenhemlos}/>
                 </div>
                 <div className="hjalpBotten"> </div>
 
@@ -93,7 +95,7 @@ const info4=()=>{
                 </div>
                 </div>
 
-                <div className="portfolioContent">
+                <div className="card portfolioContent">
                     {/* <div className="jag">
                 Alexander Aspman
 <br />

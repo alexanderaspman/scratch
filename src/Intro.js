@@ -12,10 +12,10 @@ function Intro(props) {
         <span>My name is Dave Hillman and I am a web developer.</span> 
       </p>
       <div className={classes.skillImages}>
-        <img src={shop} alt="HTML5 LOGO" className="webshopCard" />
-        <img src="/images/icons/css.svg" alt="HTML5 LOGO"  className="appCard"/>
+        <img src={shop} alt="HTML5 LOGO" ale="Javascript LOGO" className="javascript" />
+        <img src="/images/icons/css.svg" alt="HTML5 LOGO"  className="html5"/>
     
-       <img src="/images/icons/js.png" alt="Javascript Logo" />
+       <img src="/images/icons/js.png" alt="React Logo" className="react" />
 </div>
     </div>
   );
